@@ -6,9 +6,14 @@
  * Time: 20:41
  */
 
+use PHPUnit\Framework\TestCase;
 
-class Test extends TestCase
+class hello extends TestCase
 {
-     require("./hello.php");
-     $this -> ex
+    public function testHelloWorld()
+    {
+        require('hello.php');
+        $this->expectOutputString('Hola mundo');
+    }
+
 }
