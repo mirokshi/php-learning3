@@ -1,8 +1,8 @@
 <?php
-require 'function.php';
 
-var_dump($_GET);
-die();
+
+//var_dump($_GET);
+//die();
 
 // ->GET es un vector
 //String -> $greeting='Hola';
@@ -33,10 +33,10 @@ die();
 //    'dni' => 'Y4786533'
 //    'mobile' => '616531219'
 //]
+require 'functions.php';
 
-$greeting= hello();
+$greeting= hello($_GET['greeting']);
 
-
-require 'vistas/index.php';
+require 'vistas/index.blade.php';
 
 
