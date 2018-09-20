@@ -14,6 +14,8 @@ class hello extends TestCase
     public function testTaskClass()
     {
         $task = new Task();
+        $task->name="Comprar pan";
+
 
         $this->assertInstanceOf(Task::class,$task);
 
@@ -24,7 +26,7 @@ class hello extends TestCase
      */
     public function can_create_a_task_with_a_name()
     {
-        $task = new  Task('Comprar pan'. false);
+        $task = new  Task('Comprar pan', false);
 
             //PROPIEDADES
         $this->assertEquals('Comprar pan', $task->name);
@@ -41,16 +43,4 @@ public function can_complete_a_task(){
         $this->assertEquals(true,$task);
 }
 
-    /**
-     * @test
-     */
-    public function task()
-    {
-
-        //1) Preparacion
-        //2) Ejecutar
-        //3) Asertar
-        require_once('../tasks.php');
-
-    }
 }
