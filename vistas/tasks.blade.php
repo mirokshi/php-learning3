@@ -27,7 +27,15 @@ foreach ($tasks as $task) {
 -->
 <ul>
     <?php foreach ($tasks as $task) : ?>
-    <li><?= $tasks;?></li>
+    <li>
+        <?php if ($task['completed'] == true): ?>
+            <strike>
+                <?php endif; ?>
+            <?= $task['name']; ?>
+                <?php if ($task['completed'] == true): ?>
+            </strike>
+                <?php endif; ?>
+    </li>
     <?php endforeach;?>
 </ul>
 
