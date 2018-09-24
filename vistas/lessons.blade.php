@@ -8,7 +8,6 @@
     <title>Document</title>
 </head>
 <body>
-
-<?= $greeting ?>
+<h1>LESSONS</h1>
 </body>
 </html>

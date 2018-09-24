@@ -8,14 +8,23 @@
     <title>Tasks</title>
 </head>
 <body>
+<!-- NO HTML5 -->
+<!-- SEMANTICA-->
+<!-- DRY -->
+<nav>
+    <li><a href="/tasks.php">Tasques</a></li>
+    <li><a href="/people.php">Personas</a></li>
+    <li><a href="/lessons.php">LLiçons</a></li>
+    <li><a href="/lessons.php">Contacte</a></li>
+    <li><a href="/lessons.php">Sobre nosaltres</a></li>
+
+</nav>
 
 <hr>
-
 <h1>Tasks</h1>
 <p>Mis tareas pendientes son:</p>
-
 <hr>
-<!--ul>li*5 -->
+
 <ul>
     <!-- PHP for que muestras las tareas -->
     <?php foreach ($tasks as $task) : ?>

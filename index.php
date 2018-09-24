@@ -37,6 +37,6 @@ require 'functions.php';
 
 $greeting= hello($_GET['greeting']);
 
-require 'vistas/index.blade.php';
+require 'vistas/contact.blade.php';
 
 
