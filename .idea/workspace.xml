@@ -2,18 +2,49 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3f9fa1c-9f28-4cb5-a780-8de2180078da" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contact.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vistas/about.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vistas/lessons.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/AboutController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/about.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/contact.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/lessons.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/people.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/tasks.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/helpers.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/Lesson.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/vistas/about.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/vistas/contact.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/vistas/lessons.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/vistas/partials/footer.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/vistas/partials/header.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/vistas/tasks.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/App.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/Router.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/AppTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/RouterTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/framework/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/bootstrap.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/framework/database/Connection.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/database/Connection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/database/QueryBuilder.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/database/QueryBuilder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello2.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks.php" beforeDir="false" afterPath="$PROJECT_DIR$/tasks.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vistas/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/vistas/contact.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vistas/tasks.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/vistas/tasks.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lessons.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Person.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/Person.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Task.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/Task.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/people.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vistas/about.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vistas/contact.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vistas/lessons.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vistas/people.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/vistas/people.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vistas/tasks.blade.php" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,47 +89,58 @@
     <session id="-1183050533">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
-          <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.13" value="2" />
-          <entry key="project.open.time.14" value="1" />
+          <entry key="project.closed" value="12" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.12" value="2" />
+          <entry key="project.open.time.13" value="3" />
+          <entry key="project.open.time.14" value="2" />
+          <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="1" />
-          <entry key="php" value="50" />
+          <entry key="json" value="4" />
+          <entry key="md" value="1" />
+          <entry key="php" value="188" />
           <entry key="sql" value="2" />
           <entry key="tasks" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Blade" value="19" />
+          <entry key="Blade" value="46" />
           <entry key="Database Element" value="1" />
-          <entry key="PHP" value="30" />
+          <entry key="JSON" value="4" />
+          <entry key="Markdown" value="1" />
+          <entry key="PHP" value="141" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Scratch" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="7" />
-          <entry key="php" value="5134" />
+          <entry key="dummy" value="26" />
+          <entry key="json" value="83" />
+          <entry key="md" value="64" />
+          <entry key="php" value="10214" />
           <entry key="sql" value="19" />
-          <entry key="txt" value="8" />
+          <entry key="txt" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Blade" value="1188" />
-          <entry key="PHP" value="3939" />
-          <entry key="PLAIN_TEXT" value="15" />
+          <entry key="Blade" value="1841" />
+          <entry key="JSON" value="83" />
+          <entry key="Markdown" value="64" />
+          <entry key="PHP" value="8366" />
+          <entry key="PLAIN_TEXT" value="54" />
           <entry key="SQL" value="19" />
           <entry key="Scratch" value="7" />
         </counts>
@@ -107,113 +149,118 @@
       <usages-collector id="statistics.php.composer.command.options" />
       <usages-collector id="statistics.php.new.test">
         <counts>
-          <entry key="source.empty" value="1" />
-          <entry key="with.framework.PHPUnit.without.selected.methods" value="1" />
-          <entry key="without.target.element" value="1" />
+          <entry key="source.empty" value="2" />
+          <entry key="with.framework.PHPUnit.without.selected.methods" value="2" />
+          <entry key="without.target.element" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
       <usages-collector id="statistics.php.composer.actions" />
       <usages-collector id="statistics.php.new.class">
         <counts>
-          <entry key="PHP Class.type" value="1" />
+          <entry key="PHP Class.type" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.11118832">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/tasks.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="52">
-                  <caret line="2" column="26" lean-forward="true" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/framework/bootstrap.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="104">
-                  <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/models/Task.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="624">
-                  <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/config.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="234">
-                  <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/framework/database/Connection.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="130">
-                  <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/framework/database/Connection.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="130">
-                  <caret line="5" selection-start-line="5" selection-end-line="5" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/vistas/tasks.blade.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="442">
-                  <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/lessons.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="26">
-                  <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/vistas/about.blade.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="260">
-                  <caret line="10" selection-start-line="10" selection-end-line="10" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/AppTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1404">
+              <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/framework/App.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="26">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/about.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="78">
+              <caret line="3" column="38" lean-forward="true" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/AboutController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="104">
+              <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="26">
+              <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/routes.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="7" column="36" lean-forward="true" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/RouterTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="16" column="46" lean-forward="true" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/framework/Router.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="716">
+              <caret line="29" column="28" lean-forward="true" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="130">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>aproved</find>
+      <find>aprovado</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>aprovado</replace>
+      <replace>approved</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/vistas/partials</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -224,27 +271,54 @@
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.php" />
         <option value="$PROJECT_DIR$/Test.php" />
         <option value="$PROJECT_DIR$/hello.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/TasksTest.php" />
         <option value="$PROJECT_DIR$/tests/TasksTest.php" />
         <option value="$PROJECT_DIR$/framework/database/connect.php" />
         <option value="$PROJECT_DIR$/framework/database/connections.php" />
         <option value="$PROJECT_DIR$/framework/database/queryBuilder.php" />
-        <option value="$PROJECT_DIR$/framework/database/QueryBuilder.php" />
         <option value="$PROJECT_DIR$/models/Task.php" />
-        <option value="$PROJECT_DIR$/vistas/people.blade.php" />
-        <option value="$PROJECT_DIR$/models/Person.php" />
-        <option value="$PROJECT_DIR$/people.php" />
-        <option value="$PROJECT_DIR$/config.php" />
-        <option value="$PROJECT_DIR$/tasks.php" />
-        <option value="$PROJECT_DIR$/framework/bootstrap.php" />
-        <option value="$PROJECT_DIR$/framework/database/Connection.php" />
-        <option value="$PROJECT_DIR$/vistas/tasks.blade.php" />
-        <option value="$PROJECT_DIR$/vistas/contact.blade.php" />
-        <option value="$PROJECT_DIR$/vistas/lessons.blade.php" />
         <option value="$PROJECT_DIR$/lessons.php" />
         <option value="$PROJECT_DIR$/contact.php" />
+        <option value="$PROJECT_DIR$/about.php" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/people.php" />
+        <option value="$PROJECT_DIR$/tasks.php" />
+        <option value="$PROJECT_DIR$/models/Person.php" />
+        <option value="$PROJECT_DIR$/framework/database/QueryBuilder.php" />
+        <option value="$PROJECT_DIR$/models/Lesson.php" />
+        <option value="$PROJECT_DIR$/helpers.php" />
+        <option value="$PROJECT_DIR$/controllers/tasks.php" />
+        <option value="$PROJECT_DIR$/controllers/people.php" />
+        <option value="$PROJECT_DIR$/controllers/lessons.php" />
+        <option value="$PROJECT_DIR$/controllers/about.php" />
+        <option value="$PROJECT_DIR$/controllers/contact.php" />
+        <option value="$PROJECT_DIR$/routes.php" />
+        <option value="$PROJECT_DIR$/vistas/partials/navigation.blade.php" />
         <option value="$PROJECT_DIR$/vistas/about.blade.php" />
+        <option value="$PROJECT_DIR$/vistas/contact.blade.php" />
+        <option value="$PROJECT_DIR$/vistas/lessons.blade.php" />
+        <option value="$PROJECT_DIR$/vistas/people.blade.php" />
+        <option value="$PROJECT_DIR$/vistas/partials/footer.blade.php" />
+        <option value="$PROJECT_DIR$/vistas/tasks.blade.php" />
+        <option value="$PROJECT_DIR$/vistas/partials/header.blade.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/tests/ATest.php" />
+        <option value="$PROJECT_DIR$/tests/ApplicationTest.php" />
+        <option value="$PROJECT_DIR$/app/vistas/tasks.blade.php" />
+        <option value="$PROJECT_DIR$/tests/AppTest.php" />
+        <option value="$PROJECT_DIR$/config.php" />
+        <option value="$PROJECT_DIR$/app/helpers.php" />
+        <option value="$PROJECT_DIR$/app/controllers/contact.php" />
+        <option value="$PROJECT_DIR$/framework/bootstrap.php" />
+        <option value="$PROJECT_DIR$/app/vistas/partials/footer.blade.php" />
+        <option value="$PROJECT_DIR$/framework/App.php" />
+        <option value="$PROJECT_DIR$/framework/database/Connection.php" />
+        <option value="$PROJECT_DIR$/app/controllers/about.php" />
+        <option value="$PROJECT_DIR$/app/controllers/AboutController.php" />
+        <option value="$PROJECT_DIR$/app/routes.php" />
+        <option value="$PROJECT_DIR$/tests/RouterTest.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/framework/Router.php" />
       </list>
     </option>
   </component>
@@ -290,9 +364,9 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="-30" />
-    <option name="width" value="1440" />
-    <option name="height" value="930" />
+    <option name="y" value="27" />
+    <option name="width" value="630" />
+    <option name="height" value="997" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -302,6 +376,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -312,7 +387,24 @@
             <path>
               <item name="php-learning3" type="b2602c69:ProjectViewProjectNode" />
               <item name="php-learning3" type="462c0819:PsiDirectoryNode" />
-              <item name="vistas" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="php-learning3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="php-learning3" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="php-learning3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="php-learning3" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="php-learning3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="php-learning3" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="php-learning3" type="b2602c69:ProjectViewProjectNode" />
@@ -322,7 +414,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -331,17 +422,20 @@
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="PHP" />
     <property name="com.jetbrains.php.phpunit.codeGeneration.PhpNewTestDialog.defaultLibrary" value="PHPUnit" />
     <property name="database.console.LAST_STATE" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/vendor/autoload.php" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="php.test.frameworks.configurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/tests" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tests" />
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app" />
+      <recent name="$PROJECT_DIR$/controllers" />
+      <recent name="$PROJECT_DIR$/tests" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -356,38 +450,41 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHP Script.people.php">
-    <configuration name="hello" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="hello" file="$PROJECT_DIR$/tests/TasksTest.php" scope="Class" />
+  <component name="RunManager" selected="PHPUnit.AppTest.check_container_can_bind_and_resolv">
+    <configuration name="AppTest.check_container_can_bind_and_resolv" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="AppTest" file="$PROJECT_DIR$/tests/AppTest.php" method="check_container_can_bind_and_resolv" scope="Method" />
       <method v="2" />
     </configuration>
-    <configuration name="hello.can_create_a_task_with_a_name" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="hello" file="$PROJECT_DIR$/tests/TasksTest.php" method="can_create_a_task_with_a_name" scope="Method" />
+    <configuration name="AppTest.throw_an_error_when_trying_to_acces_an_unexisting_value" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="AppTest" file="$PROJECT_DIR$/tests/AppTest.php" method="throw_an_error_when_trying_to_acces_an_unexisting_value" scope="Method" />
       <method v="2" />
     </configuration>
-    <configuration name="people.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/people.php">
+    <configuration name="RouterTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="RouterTest" file="$PROJECT_DIR$/tests/RouterTest.php" scope="Class" />
       <method v="2" />
     </configuration>
-    <configuration name="tasks.blade.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/vistas/tasks.blade.php">
+    <configuration name="RouterTest.check_return_exeception_when_uri_is_wrong" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="RouterTest" file="$PROJECT_DIR$/tests/RouterTest.php" method="check_return_exeception_when_uri_is_wrong" scope="Method" />
       <method v="2" />
     </configuration>
-    <configuration name="tasks.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/tasks.php">
+    <configuration name="vendor" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner directory="$PROJECT_DIR$/vendor" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="PHPUnit.hello" />
-      <item itemvalue="PHPUnit.hello.can_create_a_task_with_a_name" />
-      <item itemvalue="PHP Script.tasks.blade.php" />
-      <item itemvalue="PHP Script.tasks.php" />
-      <item itemvalue="PHP Script.people.php" />
+      <item itemvalue="PHPUnit.RouterTest" />
+      <item itemvalue="PHPUnit.RouterTest.check_return_exeception_when_uri_is_wrong" />
+      <item itemvalue="PHPUnit.vendor" />
+      <item itemvalue="PHPUnit.AppTest.throw_an_error_when_trying_to_acces_an_unexisting_value" />
+      <item itemvalue="PHPUnit.AppTest.check_container_can_bind_and_resolv" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="PHP Script.people.php" />
-        <item itemvalue="PHP Script.tasks.php" />
-        <item itemvalue="PHPUnit.hello" />
-        <item itemvalue="PHP Script.tasks.blade.php" />
-        <item itemvalue="PHPUnit.hello.can_create_a_task_with_a_name" />
+        <item itemvalue="PHPUnit.AppTest.check_container_can_bind_and_resolv" />
+        <item itemvalue="PHPUnit.AppTest.throw_an_error_when_trying_to_acces_an_unexisting_value" />
+        <item itemvalue="PHPUnit.vendor" />
+        <item itemvalue="PHPUnit.RouterTest" />
+        <item itemvalue="PHPUnit.RouterTest.check_return_exeception_when_uri_is_wrong" />
       </list>
     </recent_temporary>
   </component>
@@ -408,55 +505,61 @@
       <workItem from="1537526748245" duration="1039000" />
       <workItem from="1537535139325" duration="387000" />
       <workItem from="1537535872231" duration="6770000" />
-      <workItem from="1537810449064" duration="2738000" />
+      <workItem from="1537810449064" duration="7097000" />
+      <workItem from="1537882721271" duration="531000" />
+      <workItem from="1537883538400" duration="2765000" />
+      <workItem from="1537886979108" duration="798000" />
+      <workItem from="1537888691320" duration="418000" />
+      <workItem from="1537890085815" duration="11007000" />
+      <workItem from="1537970627715" duration="6963000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="hello_testHelloWorld - 2018.09.20 at 20h 22m 59s.xml">
-      <configuration name="hello.testHelloWorld" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="RouterTest_can_define_routes - 2018.09.25 at 19h 58m 38s.xml">
+      <configuration name="RouterTest.can_define_routes" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="hello - 2018.09.20 at 20h 24m 15s.xml">
-      <configuration name="hello" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="RouterTest_can_define_routes - 2018.09.25 at 19h 59m 18s.xml">
+      <configuration name="RouterTest.can_define_routes" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="hello - 2018.09.20 at 20h 24m 24s.xml">
-      <configuration name="hello" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="RouterTest_can_define_routes - 2018.09.25 at 19h 59m 22s.xml">
+      <configuration name="RouterTest.can_define_routes" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="hello_testTaskClass - 2018.09.20 at 20h 24m 35s.xml">
-      <configuration name="hello.testTaskClass" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="RouterTest - 2018.09.25 at 20h 04m 46s.xml">
+      <configuration name="RouterTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="hello - 2018.09.20 at 20h 24m 38s.xml">
-      <configuration name="hello" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="RouterTest - 2018.09.25 at 20h 14m 50s.xml">
+      <configuration name="RouterTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="hello - 2018.09.20 at 20h 24m 42s.xml">
-      <configuration name="hello" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="RouterTest_check_return_exeception_when_uri_is_wrong - 2018.09.25 at 20h 15m 06s.xml">
+      <configuration name="RouterTest.check_return_exeception_when_uri_is_wrong" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="hello_can_create_a_task_with_a_name - 2018.09.20 at 20h 24m 45s.xml">
-      <configuration name="hello.can_create_a_task_with_a_name" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="RouterTest - 2018.09.25 at 20h 20m 24s.xml">
+      <configuration name="RouterTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="hello_testTaskClass - 2018.09.20 at 20h 27m 12s.xml">
-      <configuration name="hello.testTaskClass" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="vendor - 2018.09.26 at 16h 25m 28s.xml">
+      <configuration name="vendor" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="hello_can_create_a_task_with_a_name - 2018.09.20 at 20h 27m 15s.xml">
-      <configuration name="hello.can_create_a_task_with_a_name" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="AppTest_throw_an_error_when_trying_to_acces_an_unexisting_value - 2018.09.26 at 16h 56m 10s.xml">
+      <configuration name="AppTest.throw_an_error_when_trying_to_acces_an_unexisting_value" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="hello - 2018.09.20 at 20h 27m 18s.xml">
-      <configuration name="hello" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="AppTest_check_container_can_bind_and_resolv - 2018.09.26 at 16h 59m 54s.xml">
+      <configuration name="AppTest.check_container_can_bind_and_resolv" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24301000" />
+    <option name="totallyTimeSpent" value="51142000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1440" height="875" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.175" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2125" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928263" weight="0.32682925" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32838982" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928263" weight="0.32560974" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -473,12 +576,12 @@
       <window_info anchor="right" id="Database" order="3" weight="0.17109375" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.175" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2125" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928263" weight="0.32682925" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32838982" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928263" weight="0.32627118" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -501,6 +604,16 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/framework/bootstrap.php</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.php" />
     <entry file="file://$PROJECT_DIR$/.gitignore">
@@ -512,20 +625,7 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/4164ca53-c978-4d20-88f0-14a82ea577d2/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="681">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/hello.php" />
     <entry file="file://$PROJECT_DIR$/tests/HelloTest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
@@ -534,6 +634,43 @@
       </provider>
     </entry>
     <entry file="das://dc62c7f0-d8e4-4b58-8393-6f5bcbd0d17d/schema/learning3/table/tasks" />
+    <entry file="file://$PROJECT_DIR$/framework/database/queryBuilder.php" />
+    <entry file="file://$PROJECT_DIR$/framework/database/connect.php" />
+    <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_real.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="52">
+            <caret line="2" column="52" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="53" lean-forward="true" selection-start-line="4" selection-start-column="53" selection-end-line="4" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello2.php" />
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/PDO/PDO.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/database/QueryBuilder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tests/TasksTest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
@@ -541,110 +678,200 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/framework/database/queryBuilder.php" />
-    <entry file="file://$PROJECT_DIR$/framework/database/connect.php" />
-    <entry file="file://$PROJECT_DIR$/vistas/people.blade.php">
+    <entry file="file://$PROJECT_DIR$/app/models/Person.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+        <state relative-caret-position="481">
+          <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/framework/database/QueryBuilder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" column="54" selection-start-line="5" selection-start-column="54" selection-end-line="5" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/Person.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/people.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/Task.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tasks.php">
+    <entry file="file://$PROJECT_DIR$/vistas/partials/navigation.blade.php" />
+    <entry file="file://$PROJECT_DIR$/app/vistas/about.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
-          <caret line="2" column="26" lean-forward="true" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/vistas/lessons.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/vistas/people.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/Lesson.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/lessons.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="10" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/tasks.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/people.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/Task.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/superglobals/_superglobals.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="118" selection-start-line="118" selection-end-line="118" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/vistas/partials/header.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1820">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/vistas/tasks.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/AppTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1404">
+          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        <state relative-caret-position="26">
+          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/vistas/contact.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/contact.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/framework/bootstrap.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/vistas/partials/footer.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="56" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/about.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="38" lean-forward="true" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/AboutController.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
-          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/RouterTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="16" column="46" lean-forward="true" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/framework/database/Connection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/App.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="36" lean-forward="true" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
           <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vistas/contact.blade.php">
+    <entry file="file://$PROJECT_DIR$/framework/Router.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contact.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="1" column="35" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vistas/lessons.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lessons.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vistas/about.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vistas/tasks.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+        <state relative-caret-position="716">
+          <caret line="29" column="28" lean-forward="true" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
         </state>
       </provider>
     </entry>

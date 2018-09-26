@@ -26,4 +26,10 @@ class Person
         $this->work=true;
     }
 
+    public  static function all()
+    {
+        $pdo = Connection::connect();
+        return QueryBuilder::fetchAll($pdo,'people');
+    }
+
 }

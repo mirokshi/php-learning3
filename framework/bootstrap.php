@@ -1,5 +1,9 @@
 <?php
+require 'database/Connection.php';
+require 'database/QueryBuilder.php';
 
-require 'framework/database/Connection.php';
-require 'framework/database/QueryBuilder.php';
-require 'config.php';
+App::bind('config', require 'config.php');
+
+$routes = require 'app/routes.php';
+
+Router::define($routes);
