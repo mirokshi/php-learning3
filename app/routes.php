@@ -1,11 +1,11 @@
 <?php
 
 return  [
-    '/' => 'app/controllers/tasks.php',
-    '/tasks' => 'app/controllers/tasks.php',
-    '/people' => 'app/controllers/people.php',
-    '/lessons' => 'app/controllers/lessons.php',
-    '/about' => 'PageController@show',
-    '/contact' => 'app/controllers/contact.php'
+    '/' => 'app/controllers/PagesController@tasks',
+    '/tasks' => 'app/controllers/PagesController@tasks',
+    '/people' => 'app/controllers/PagesController@people',
+    '/lessons' => 'app/controllers/PagesController@lessons',
+    '/about' => 'app/controllers/PagesController@about',
+    '/contact' => 'app/controllers/PagesController@contact'
 
 ];
